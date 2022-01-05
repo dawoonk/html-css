@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 폼 만들기</title>
+</head>
+<body>
+    <!-- <form>태그로 <input>들을 감싸서 form을 만든다 -->
+
+        <!-- <form action="서버로 보내는 요청">폼을 구성하는 input태그들</form> -->
+
+        <form action="user info">
+
+            이름 : <input type="text" name="name" placeholder="이름을 입력하세요" ><br>
+            비밀번호 : <input type="password" name="password" placeholder="비밀번호를 입력해 주세요" required><br>
+            주소 : <input type="address" name="address" ><br>
+            전화번호 : <input type="tel" name="tel"><br>
+            가입일자 : <input type="date" name="date" ><br>
+            성별 : <input type="radio" name="sex" value="남자" checked >남자 <input type="radio" name="sex" value="여자">여자 <br>
+            취미 : <input type="checkbox" name="hobby" value="자전거">자전거 <input type="checkbox" name="hobby" value="달리기">달리기
+                    <input type="checkbox" name="hobby" value="독서" checked>독서<br>
+
+            자기소개 : <textarea name="" id="" cols="50" rows="4">자기소개를 입력하세요</textarea><br>
+
+            <a href="/input.html"><input type="button" name="resetbtn" value="다시작성"></a>
+
+            <input type="submit" name="submit" value="회원 가입">
+
+
+
+        </form>
+</body>
+</html>
